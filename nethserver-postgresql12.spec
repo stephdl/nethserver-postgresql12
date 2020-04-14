@@ -34,3 +34,7 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %doc COPYING
 %dir %{_nseventsdir}/%{name}-update
+
+%changelog
+* Mon Apr 13 2020 stephane de Labrusse <stephdl@de-labrusse.fr>
+- initial
